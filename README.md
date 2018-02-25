@@ -1,6 +1,6 @@
 ﻿16 Tiny Pixels!
 
-![alt text](https://github.com/SynchronisticSavage/16-Tiny-Pixels/16-Tiny-Pixels.png)
+![16 Tiny Pixels 3D View](https://raw.githubusercontent.com/SynchronisticSavage/16-Tiny-PIxels/master/16-Tiny-Pixels.png)
 (Cause sometimes you just need a little ring of programable leds...)
 
 A Simple little board combining an AT-Tiny, 16 WS2812 LEDS, Micro-USB Connector, 2x3 Pin Header, and a handful of capacitors, resistors, and Diodes. All Packed into a nice circular little package.
