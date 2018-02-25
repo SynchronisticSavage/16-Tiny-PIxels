@@ -1,0 +1,61 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue
+#
+DEF C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue" 6 -85 40 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# R-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue
+#
+DEF R-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue R 0 0 N Y 1 F N
+F0 "R" 80 0 40 V V C CNN
+F1 "R-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue" 7 1 40 V V C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "" 0 0 30 H V C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue
+#
+DEF WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue" 10 -130 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -100 100 100 -100 0 1 0 N
+X 1 1 -400 50 300 R 60 60 1 1 P I
+X 2 2 -400 -50 300 R 60 60 1 1 P I
+X 3 3 400 -50 300 L 60 60 1 1 P I
+X 4 4 400 50 300 L 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+#End Library

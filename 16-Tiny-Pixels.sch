@@ -1,0 +1,795 @@
+EESchema Schematic File Version 4
+LIBS:16-Tiny-Pixels-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "14 sep 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P1
+U 1 1 55964C41
+P 1650 850
+F 0 "P1" H 1650 1000 50  0000 C CNN
+F 1 "WS2812B" H 1660 720 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 1650 850 60  0000 C CNN
+F 3 "~" H 1650 850 60  0000 C CNN
+	1    1650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P5
+U 1 1 55964CA1
+P 3050 850
+F 0 "P5" H 3050 1000 50  0000 C CNN
+F 1 "WS2812B" H 3060 720 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 3050 850 60  0000 C CNN
+F 3 "~" H 3050 850 60  0000 C CNN
+	1    3050 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P9
+U 1 1 55964CC3
+P 4450 850
+F 0 "P9" H 4450 1000 50  0000 C CNN
+F 1 "WS2812B" H 4460 720 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 4450 850 60  0000 C CNN
+F 3 "~" H 4450 850 60  0000 C CNN
+	1    4450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P13
+U 1 1 55964CCB
+P 5850 850
+F 0 "P13" H 5850 1000 50  0000 C CNN
+F 1 "WS2812B" H 5860 720 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 5850 850 60  0000 C CNN
+F 3 "~" H 5850 850 60  0000 C CNN
+	1    5850 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 800  2350 800 
+Wire Wire Line
+	2350 800  2350 900 
+Wire Wire Line
+	2350 900  2650 900 
+Wire Wire Line
+	3450 800  3750 800 
+Wire Wire Line
+	3750 800  3750 900 
+Wire Wire Line
+	3750 900  4050 900 
+Wire Wire Line
+	4850 800  5150 800 
+Wire Wire Line
+	5150 800  5150 900 
+Wire Wire Line
+	5150 900  5450 900 
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P2
+U 1 1 55964CF4
+P 1650 1300
+F 0 "P2" H 1650 1450 50  0000 C CNN
+F 1 "WS2812B" H 1660 1170 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 1650 1300 60  0000 C CNN
+F 3 "~" H 1650 1300 60  0000 C CNN
+	1    1650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P6
+U 1 1 55964CFC
+P 3050 1300
+F 0 "P6" H 3050 1450 50  0000 C CNN
+F 1 "WS2812B" H 3060 1170 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 3050 1300 60  0000 C CNN
+F 3 "~" H 3050 1300 60  0000 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P10
+U 1 1 55964D04
+P 4450 1300
+F 0 "P10" H 4450 1450 50  0000 C CNN
+F 1 "WS2812B" H 4460 1170 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 4450 1300 60  0000 C CNN
+F 3 "~" H 4450 1300 60  0000 C CNN
+	1    4450 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P14
+U 1 1 55964D0C
+P 5850 1300
+F 0 "P14" H 5850 1450 50  0000 C CNN
+F 1 "WS2812B" H 5860 1170 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 5850 1300 60  0000 C CNN
+F 3 "~" H 5850 1300 60  0000 C CNN
+	1    5850 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1250 2350 1250
+Wire Wire Line
+	2350 1250 2350 1350
+Wire Wire Line
+	2350 1350 2650 1350
+Wire Wire Line
+	3450 1250 3750 1250
+Wire Wire Line
+	3750 1250 3750 1350
+Wire Wire Line
+	3750 1350 4050 1350
+Wire Wire Line
+	4850 1250 5150 1250
+Wire Wire Line
+	5150 1250 5150 1350
+Wire Wire Line
+	5150 1350 5450 1350
+Wire Wire Line
+	1250 900  1250 1050
+Wire Wire Line
+	1250 1050 6350 1050
+Wire Wire Line
+	6350 1050 6350 1250
+Wire Wire Line
+	6350 1250 6250 1250
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P3
+U 1 1 55964D33
+P 1650 1750
+F 0 "P3" H 1650 1900 50  0000 C CNN
+F 1 "WS2812B" H 1660 1620 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 1650 1750 60  0000 C CNN
+F 3 "~" H 1650 1750 60  0000 C CNN
+	1    1650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P7
+U 1 1 55964D3B
+P 3050 1750
+F 0 "P7" H 3050 1900 50  0000 C CNN
+F 1 "WS2812B" H 3060 1620 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 3050 1750 60  0000 C CNN
+F 3 "~" H 3050 1750 60  0000 C CNN
+	1    3050 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P11
+U 1 1 55964D43
+P 4450 1750
+F 0 "P11" H 4450 1900 50  0000 C CNN
+F 1 "WS2812B" H 4460 1620 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 4450 1750 60  0000 C CNN
+F 3 "~" H 4450 1750 60  0000 C CNN
+	1    4450 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P15
+U 1 1 55964D4B
+P 5850 1750
+F 0 "P15" H 5850 1900 50  0000 C CNN
+F 1 "WS2812B" H 5860 1620 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 5850 1750 60  0000 C CNN
+F 3 "~" H 5850 1750 60  0000 C CNN
+	1    5850 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1700 2350 1700
+Wire Wire Line
+	2350 1700 2350 1800
+Wire Wire Line
+	2350 1800 2650 1800
+Wire Wire Line
+	3450 1700 3750 1700
+Wire Wire Line
+	3750 1700 3750 1800
+Wire Wire Line
+	3750 1800 4050 1800
+Wire Wire Line
+	4850 1700 5150 1700
+Wire Wire Line
+	5150 1700 5150 1800
+Wire Wire Line
+	5150 1800 5450 1800
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P4
+U 1 1 55964D5C
+P 1650 2200
+F 0 "P4" H 1650 2350 50  0000 C CNN
+F 1 "WS2812B" H 1660 2070 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 1650 2200 60  0000 C CNN
+F 3 "~" H 1650 2200 60  0000 C CNN
+	1    1650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P8
+U 1 1 55964D64
+P 3050 2200
+F 0 "P8" H 3050 2350 50  0000 C CNN
+F 1 "WS2812B" H 3060 2070 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 3050 2200 60  0000 C CNN
+F 3 "~" H 3050 2200 60  0000 C CNN
+	1    3050 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P12
+U 1 1 55964D6C
+P 4450 2200
+F 0 "P12" H 4450 2350 50  0000 C CNN
+F 1 "WS2812B" H 4460 2070 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 4450 2200 60  0000 C CNN
+F 3 "~" H 4450 2200 60  0000 C CNN
+	1    4450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:WS2812B-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue P16
+U 1 1 55964D74
+P 5850 2200
+F 0 "P16" H 5850 2350 50  0000 C CNN
+F 1 "WS2812B" H 5860 2070 40  0000 C CNN
+F 2 "LED_SMD:LED_WS2812B-PLCC4" H 5850 2200 60  0000 C CNN
+F 3 "~" H 5850 2200 60  0000 C CNN
+	1    5850 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2150 2350 2150
+Wire Wire Line
+	2350 2150 2350 2250
+Wire Wire Line
+	2350 2250 2650 2250
+Wire Wire Line
+	3450 2150 3750 2150
+Wire Wire Line
+	3750 2150 3750 2250
+Wire Wire Line
+	3750 2250 4050 2250
+Wire Wire Line
+	4850 2150 5150 2150
+Wire Wire Line
+	5150 2150 5150 2250
+Wire Wire Line
+	5150 2250 5450 2250
+Wire Wire Line
+	1250 1800 1250 1950
+Wire Wire Line
+	1250 1950 6350 1950
+Wire Wire Line
+	6350 1950 6350 2150
+Wire Wire Line
+	6350 2150 6250 2150
+Wire Wire Line
+	1250 1350 1250 1500
+Wire Wire Line
+	1250 1500 6350 1500
+Wire Wire Line
+	6350 1500 6350 1700
+Wire Wire Line
+	6350 1700 6250 1700
+Text GLabel 6750 800  2    60   Input ~ 0
+Data-IN
+Text GLabel 1250 800  0    60   Input ~ 0
+VCC
+Text GLabel 1250 1250 0    60   Input ~ 0
+VCC
+Text GLabel 1250 1700 0    60   Input ~ 0
+VCC
+Text GLabel 1250 2150 0    60   Input ~ 0
+VCC
+Text GLabel 2050 900  2    60   Input ~ 0
+GND
+Text GLabel 2050 1350 2    60   Input ~ 0
+GND
+Text GLabel 2050 1800 2    60   Input ~ 0
+GND
+Text GLabel 2050 2250 2    60   Input ~ 0
+GND
+Text GLabel 2650 800  0    60   Input ~ 0
+VCC
+Text GLabel 2650 1250 0    60   Input ~ 0
+VCC
+Text GLabel 2650 1700 0    60   Input ~ 0
+VCC
+Text GLabel 2650 2150 0    60   Input ~ 0
+VCC
+Text GLabel 3450 900  2    60   Input ~ 0
+GND
+Text GLabel 3450 1350 2    60   Input ~ 0
+GND
+Text GLabel 3450 1800 2    60   Input ~ 0
+GND
+Text GLabel 3450 2250 2    60   Input ~ 0
+GND
+Text GLabel 4050 800  0    60   Input ~ 0
+VCC
+Text GLabel 4050 1250 0    60   Input ~ 0
+VCC
+Text GLabel 4050 1700 0    60   Input ~ 0
+VCC
+Text GLabel 4050 2150 0    60   Input ~ 0
+VCC
+Text GLabel 4850 900  2    60   Input ~ 0
+GND
+Text GLabel 4850 1350 2    60   Input ~ 0
+GND
+Text GLabel 4850 1800 2    60   Input ~ 0
+GND
+Text GLabel 4850 2250 2    60   Input ~ 0
+GND
+Text GLabel 5450 800  0    60   Input ~ 0
+VCC
+Text GLabel 5450 1250 0    60   Input ~ 0
+VCC
+Text GLabel 5450 1700 0    60   Input ~ 0
+VCC
+Text GLabel 5450 2150 0    60   Input ~ 0
+VCC
+Text GLabel 6250 900  2    60   Input ~ 0
+GND
+Text GLabel 6250 1350 2    60   Input ~ 0
+GND
+Text GLabel 6250 1800 2    60   Input ~ 0
+GND
+Text GLabel 6250 2250 2    60   Input ~ 0
+GND
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C1
+U 1 1 559851DB
+P 7250 1250
+F 0 "C1" H 7250 1350 40  0000 L CNN
+F 1 "0.1uf" H 7256 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7288 1100 30  0000 C CNN
+F 3 "~" H 7250 1250 60  0000 C CNN
+	1    7250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C2
+U 1 1 55985230
+P 7450 1250
+F 0 "C2" H 7450 1350 40  0000 L CNN
+F 1 "0.1uf" H 7456 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7488 1100 30  0000 C CNN
+F 3 "~" H 7450 1250 60  0000 C CNN
+	1    7450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C3
+U 1 1 55985236
+P 7650 1250
+F 0 "C3" H 7650 1350 40  0000 L CNN
+F 1 "0.1uf" H 7656 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7688 1100 30  0000 C CNN
+F 3 "~" H 7650 1250 60  0000 C CNN
+	1    7650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C4
+U 1 1 5598523C
+P 7850 1250
+F 0 "C4" H 7850 1350 40  0000 L CNN
+F 1 "0.1uf" H 7856 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 7888 1100 30  0000 C CNN
+F 3 "~" H 7850 1250 60  0000 C CNN
+	1    7850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C5
+U 1 1 55985266
+P 8050 1250
+F 0 "C5" H 8050 1350 40  0000 L CNN
+F 1 "0.1uf" H 8056 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8088 1100 30  0000 C CNN
+F 3 "~" H 8050 1250 60  0000 C CNN
+	1    8050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C6
+U 1 1 5598526C
+P 8250 1250
+F 0 "C6" H 8250 1350 40  0000 L CNN
+F 1 "0.1uf" H 8256 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8288 1100 30  0000 C CNN
+F 3 "~" H 8250 1250 60  0000 C CNN
+	1    8250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C7
+U 1 1 55985272
+P 8450 1250
+F 0 "C7" H 8450 1350 40  0000 L CNN
+F 1 "0.1uf" H 8456 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8488 1100 30  0000 C CNN
+F 3 "~" H 8450 1250 60  0000 C CNN
+	1    8450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C8
+U 1 1 55985278
+P 8650 1250
+F 0 "C8" H 8650 1350 40  0000 L CNN
+F 1 "0.1uf" H 8656 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8688 1100 30  0000 C CNN
+F 3 "~" H 8650 1250 60  0000 C CNN
+	1    8650 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1050 7450 1050
+Connection ~ 8250 1050
+Connection ~ 8450 1050
+Connection ~ 7850 1050
+Connection ~ 8050 1050
+Connection ~ 7450 1050
+Connection ~ 7650 1050
+Wire Wire Line
+	7250 1450 7450 1450
+Connection ~ 7450 1450
+Connection ~ 8450 1450
+Connection ~ 8050 1450
+Connection ~ 8250 1450
+Connection ~ 7650 1450
+Connection ~ 7850 1450
+Text GLabel 10300 1450 2    60   Input ~ 0
+GND
+Text GLabel 7250 1050 0    60   Input ~ 0
+VCC
+$Comp
+L ESP8266-LED-rescue:R-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue R4
+U 1 1 55D77F07
+P 6500 800
+F 0 "R4" V 6580 800 40  0000 C CNN
+F 1 "500" V 6507 801 40  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 6430 800 30  0000 C CNN
+F 3 "~" H 6500 800 30  0000 C CNN
+	1    6500 800 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1250 2250
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C9
+U 1 1 55F66D92
+P 8850 1250
+F 0 "C9" H 8850 1350 40  0000 L CNN
+F 1 "0.1uf" H 8856 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8888 1100 30  0000 C CNN
+F 3 "~" H 8850 1250 60  0000 C CNN
+	1    8850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C10
+U 1 1 55F66D98
+P 9050 1250
+F 0 "C10" H 9050 1350 40  0000 L CNN
+F 1 "0.1uf" H 9056 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 9088 1100 30  0000 C CNN
+F 3 "~" H 9050 1250 60  0000 C CNN
+	1    9050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C11
+U 1 1 55F66D9E
+P 9250 1250
+F 0 "C11" H 9250 1350 40  0000 L CNN
+F 1 "0.1uf" H 9256 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 9288 1100 30  0000 C CNN
+F 3 "~" H 9250 1250 60  0000 C CNN
+	1    9250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C12
+U 1 1 55F66DA4
+P 9450 1250
+F 0 "C12" H 9450 1350 40  0000 L CNN
+F 1 "0.1uf" H 9456 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 9488 1100 30  0000 C CNN
+F 3 "~" H 9450 1250 60  0000 C CNN
+	1    9450 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C13
+U 1 1 55F66E2E
+P 9650 1250
+F 0 "C13" H 9650 1350 40  0000 L CNN
+F 1 "0.1uf" H 9656 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 9688 1100 30  0000 C CNN
+F 3 "~" H 9650 1250 60  0000 C CNN
+	1    9650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C14
+U 1 1 55F66E34
+P 9850 1250
+F 0 "C14" H 9850 1350 40  0000 L CNN
+F 1 "0.1uf" H 9856 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 9888 1100 30  0000 C CNN
+F 3 "~" H 9850 1250 60  0000 C CNN
+	1    9850 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C15
+U 1 1 55F66E3A
+P 10050 1250
+F 0 "C15" H 10050 1350 40  0000 L CNN
+F 1 "0.1uf" H 10056 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 10088 1100 30  0000 C CNN
+F 3 "~" H 10050 1250 60  0000 C CNN
+	1    10050 1250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8650 1450
+Connection ~ 8650 1050
+Connection ~ 9650 1050
+Connection ~ 9850 1050
+Connection ~ 9250 1050
+Connection ~ 9450 1050
+Connection ~ 8850 1050
+Connection ~ 9050 1050
+Connection ~ 9050 1450
+Connection ~ 8850 1450
+Connection ~ 9450 1450
+Connection ~ 9250 1450
+Connection ~ 9850 1450
+Connection ~ 9650 1450
+Wire Wire Line
+	8250 1050 8450 1050
+Wire Wire Line
+	8450 1050 8650 1050
+Wire Wire Line
+	7850 1050 8050 1050
+Wire Wire Line
+	8050 1050 8250 1050
+Wire Wire Line
+	7450 1050 7650 1050
+Wire Wire Line
+	7650 1050 7850 1050
+Wire Wire Line
+	7450 1450 7650 1450
+Wire Wire Line
+	8450 1450 8650 1450
+Wire Wire Line
+	8050 1450 8250 1450
+Wire Wire Line
+	8250 1450 8450 1450
+Wire Wire Line
+	7650 1450 7850 1450
+Wire Wire Line
+	7850 1450 8050 1450
+Wire Wire Line
+	8650 1450 8850 1450
+Wire Wire Line
+	8650 1050 8850 1050
+Wire Wire Line
+	9650 1050 9850 1050
+Wire Wire Line
+	9850 1050 10050 1050
+Wire Wire Line
+	9250 1050 9450 1050
+Wire Wire Line
+	9450 1050 9650 1050
+Wire Wire Line
+	8850 1050 9050 1050
+Wire Wire Line
+	9050 1050 9250 1050
+Wire Wire Line
+	9050 1450 9250 1450
+Wire Wire Line
+	8850 1450 9050 1450
+Wire Wire Line
+	9450 1450 9650 1450
+Wire Wire Line
+	9250 1450 9450 1450
+Wire Wire Line
+	9850 1450 10050 1450
+Wire Wire Line
+	9650 1450 9850 1450
+$Comp
+L MCU_Atmel_ATTINY:ATTINY85-20SU U1
+U 1 1 5A8F429E
+P 2900 4600
+F 0 "U1" H 2900 4083 50  0000 C CNN
+F 1 "ATTINY85-20SU" H 2900 4174 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3850 4600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf" H 2900 4600 50  0001 C CNN
+	1    2900 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Specialized:USB_B_Micro J2
+U 1 1 5A8F4E4D
+P 6350 4450
+F 0 "J2" H 6405 4917 50  0000 C CNN
+F 1 "USB_B_Micro" H 6405 4826 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 6500 4400 50  0001 C CNN
+F 3 "~" H 6500 4400 50  0001 C CNN
+	1    6350 4450
+	-1   0    0    1   
+$EndComp
+Text GLabel 6350 4050 1    60   Input ~ 0
+GND
+$Comp
+L Device:R R2
+U 1 1 5A91B65A
+P 5400 4550
+F 0 "R2" V 5607 4550 50  0000 C CNN
+F 1 "68" V 5516 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 5330 4550 50  0001 C CNN
+F 3 "~" H 5400 4550 50  0001 C CNN
+	1    5400 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5A969EFF
+P 5100 4450
+F 0 "R1" H 5170 4496 50  0000 L CNN
+F 1 "68" H 5170 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 5030 4450 50  0001 C CNN
+F 3 "~" H 5100 4450 50  0001 C CNN
+	1    5100 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5A96F144
+P 5850 4200
+F 0 "R3" H 5920 4246 50  0000 L CNN
+F 1 "1.5K" H 5920 4155 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 5780 4200 50  0001 C CNN
+F 3 "~" H 5850 4200 50  0001 C CNN
+	1    5850 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 4550 5850 4350
+Text GLabel 6050 4650 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	5850 4350 6050 4350
+Connection ~ 5850 4350
+Text GLabel 5850 4050 1    50   Input ~ 0
+VCC
+$Comp
+L Device:D_Zener_Small D2
+U 1 1 5A9B85FD
+P 5600 3550
+F 0 "D2" V 5554 3618 50  0000 L CNN
+F 1 "3.6V" V 5645 3618 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.07x1.80mm_HandSolder" V 5600 3550 50  0001 C CNN
+F 3 "~" V 5600 3550 50  0001 C CNN
+	1    5600 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener_Small D1
+U 1 1 5A9BD385
+P 5250 3750
+F 0 "D1" V 5204 3818 50  0000 L CNN
+F 1 "3.6V" V 5295 3818 50  0000 L CNN
+F 2 "Diode_SMD:D_1206_3216Metric_Pad1.07x1.80mm_HandSolder" V 5250 3750 50  0001 C CNN
+F 3 "~" V 5250 3750 50  0001 C CNN
+	1    5250 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 3850 5250 4450
+Text GLabel 5250 3650 1    60   Input ~ 0
+GND
+Text GLabel 5600 3450 1    60   Input ~ 0
+GND
+Wire Wire Line
+	5600 3650 5600 4350
+Text GLabel 4250 4850 2    60   Input ~ 0
+Data-IN
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5A8D1D6F
+P 5250 5350
+F 0 "J1" H 5300 5667 50  0000 C CNN
+F 1 "ICSP" H 5300 5576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 5250 5350 50  0001 C CNN
+F 3 "~" H 5250 5350 50  0001 C CNN
+	1    5250 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 4450 4950 4450
+Wire Wire Line
+	4250 4550 5250 4550
+Wire Wire Line
+	5050 5450 4700 5450
+Wire Wire Line
+	4700 5450 4700 4350
+Wire Wire Line
+	4700 4350 4250 4350
+Wire Wire Line
+	5050 5350 4750 5350
+Wire Wire Line
+	4750 5350 4750 4650
+Wire Wire Line
+	4750 4650 4250 4650
+Wire Wire Line
+	5050 5250 4800 5250
+Wire Wire Line
+	4800 5250 4800 4750
+Wire Wire Line
+	4800 4750 4250 4750
+Wire Wire Line
+	5550 5350 6100 5350
+Wire Wire Line
+	6100 5350 6100 5650
+Wire Wire Line
+	6100 5650 4250 5650
+Wire Wire Line
+	4250 5650 4250 4850
+Text GLabel 5550 5250 2    50   Input ~ 0
+VCC
+Text GLabel 5550 5450 2    50   Input ~ 0
+GND
+Text GLabel 1550 4350 0    50   Input ~ 0
+GND
+Text GLabel 1550 4850 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	5850 4550 5550 4550
+Wire Wire Line
+	5250 4450 6050 4450
+Connection ~ 5250 4450
+Wire Wire Line
+	5600 4350 5850 4350
+$Comp
+L ESP8266-LED-rescue:C-RESCUE-ESP8266-LED-ESP8266-LED-rescue-TinyPixels-rescue-Tiny-16-Pixel-Ring-rescue C16
+U 1 1 5A8E1A96
+P 10250 1250
+F 0 "C16" H 10250 1350 40  0000 L CNN
+F 1 "0.1uf" H 10256 1165 40  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 10288 1100 30  0000 C CNN
+F 3 "~" H 10250 1250 60  0000 C CNN
+	1    10250 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 1050 10250 1050
+Connection ~ 10050 1050
+Wire Wire Line
+	10050 1450 10250 1450
+Connection ~ 10050 1450
+Wire Wire Line
+	10300 1450 10250 1450
+Connection ~ 10250 1450
+Wire Wire Line
+	10250 1050 10250 1150
+Connection ~ 10250 1050
+$EndSCHEMATC
