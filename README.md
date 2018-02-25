@@ -1,5 +1,6 @@
 ﻿16 Tiny Pixels!
 
+![alt text](https://github.com/SynchronisticSavage/16-Tiny-Pixels/16-Tiny-Pixels.png)
 (Cause sometimes you just need a little ring of programable leds...)
 
 A Simple little board combining an AT-Tiny, 16 WS2812 LEDS, Micro-USB Connector, 2x3 Pin Header, and a handful of capacitors, resistors, and Diodes. All Packed into a nice circular little package.
@@ -33,5 +34,6 @@ Organize and rename stuff
 make sure it is portable and opens fine on other systems 
 make bettery PCB-Art
 Add IR Sensor possibly another attiny to fully support IR (More Testing Required~!)
+Add WS2812 LEDs to the 3D Viewer View :P
 
 
